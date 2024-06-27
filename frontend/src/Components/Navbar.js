@@ -56,7 +56,7 @@ const Navbar = ({setShowLogin}) => {
                       </div>
                     <div className='relative group'>
                     <img src={assets.logout_icon} alt='logout' className='hover:scale-95 w-6 md:w-7' onClick={logout} />
-                      <p className='absolute -right-4  opacity-0 group-hover:opacity-100 border-2 bg-white border-2  z-50 px-3 py-1 text-lg 
+                      <p className='absolute -right-4  opacity-0 group-hover:opacity-100  bg-white border-2  z-50 px-3 py-1 text-lg 
                       rounded-md mt-5 '>Logout</p>
                       </div>                   
                      

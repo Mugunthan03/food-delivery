@@ -38,13 +38,12 @@ const Login = ({setShowLogin}) => {
             setToken(response.data.token)
             localStorage.setItem('token',response.data.token)
 
-
             const isAdmin = data.email === 'admin@gmail.com' && data.password === '12345678';
             
             // Redirect the user based on admin status
             if (isAdmin) {
                 // Redirect admin users to the add page
-                window.location.href = 'https://food-admin-opal.vercel.app/add';
+                window.location.href = '';
             } else {
                 // Redirect regular users to the home page
                 window.location.href = '/';

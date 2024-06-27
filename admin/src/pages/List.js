@@ -49,7 +49,7 @@ const List = ({url}) => {
         <h1 className='text-xl font-medium'>All food list</h1>
       </div>
       <div className='border-2 mt-5'>
-        <div className='grid p-3 text-center border-b-2 hidden md:grid grid-cols-5'>
+        <div className=' p-3 text-center border-b-2 hidden md:grid grid-cols-5'>
           <h1>Images</h1>
           <h1>Name</h1>
           <h1>Category</h1>
