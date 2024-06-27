@@ -12,7 +12,7 @@ import List from './pages/List'
 import Order from './pages/Order'
 
 const App = () => {
-  const url ='https://food-backend-joee.onrender.com'
+  const url ='https://food-delivery-backend-lm12.onrender.com'
   const navigate = useNavigate();
 
   useEffect(() => {
