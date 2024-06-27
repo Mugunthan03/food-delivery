@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  scroll-behavior: smooth;
+}
+body
+{
+  min-height: 100vh;
+}
+.scrollbar-hidden::-webkit-scrollbar
+{
+  display: none;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 30px;
+  row-gap: 50px;
+  margin-top: 30px;
+}
